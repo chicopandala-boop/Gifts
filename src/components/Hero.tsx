@@ -36,30 +36,30 @@ export const Hero: React.FC<HeroProps> = ({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8 lg:py-10">
         
         {/* Top Header Presentation Row */}
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-6">
-          <div className="space-y-3 max-w-2xl">
+        <div className="flex flex-col gap-5 pb-6">
+          <div className="space-y-2.5 w-full">
             {/* Nationwide Delivery Tag */}
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-800">
-              <Truck className="w-4 h-4 text-emerald-600 shrink-0" />
+            <div className="flex items-center gap-2 text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-800">
+              <Truck className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600 shrink-0" />
               <span>WE DELIVER NATIONWIDE</span>
               <span aria-hidden="true" className="text-emerald-400">·</span>
               <span>OFFICIAL SPORTS STORE</span>
             </div>
 
-            {/* Main Headline in Tondu Font */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-wide text-emerald-700 font-display leading-[1.1] [text-wrap:balance]">
+            {/* Main Headline in Tondu Font - unstacked ("only as it is") and significantly larger */}
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[3.8rem] xl:text-[4.5rem] font-black tracking-normal text-emerald-700 font-display leading-[1.05] lg:whitespace-nowrap">
               Official Soccer & Basketball Catalogues
             </h1>
 
             {/* Tagline */}
-            <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed">
+            <p className="text-xs sm:text-sm md:text-base text-zinc-600 leading-relaxed max-w-4xl">
               Explore our premier catalogues for official soccer club & international matchday jerseys, official training tracksuits, alongside NBA-grade court jerseys, championship retro hardwood editions, and pro court shorts.
             </p>
           </div>
 
           {/* Quick Action Badges / Category Jumps */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 shrink-0">
-            <div className="flex items-center gap-2 p-2.5 rounded-lg bg-emerald-50 border border-emerald-200 text-xs text-emerald-950 font-sans shadow-2xs">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-2 border-t border-zinc-100">
+            <div className="flex items-center gap-2 p-2.5 rounded-lg bg-emerald-50 border border-emerald-200 text-xs sm:text-sm text-emerald-950 font-sans shadow-2xs">
               <Truck className="w-4 h-4 text-emerald-700 shrink-0" />
               <span><strong>Nationwide Doorstep Delivery:</strong> Direct dispatch across all regions.</span>
             </div>
@@ -121,9 +121,10 @@ export const Hero: React.FC<HeroProps> = ({
             />
 
             {/* Huge Banner Text: Landscape Layout with Widescreen Breathing Room & Refined Kerning */}
-            <div className="absolute inset-y-0 left-6 sm:left-10 md:left-12 lg:left-14 z-10 flex flex-col justify-center max-w-[65%] sm:max-w-[60%] md:max-w-[55%] pointer-events-none select-none">
-              <h2 className="font-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-wide leading-[0.92] text-zinc-950 uppercase drop-shadow-xs">
-                PREMIER LEAGUE & CHAMPIONS
+            <div className="absolute inset-y-0 left-6 sm:left-10 md:left-12 lg:left-14 z-10 flex flex-col justify-center max-w-[70%] sm:max-w-[66%] md:max-w-[64%] pointer-events-none select-none">
+              <h2 className="font-display font-black text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide leading-[0.92] text-zinc-950 uppercase drop-shadow-xs">
+                <span className="block">PREMIER LEAGUE</span>
+                <span className="block">& CHAMPIONS</span>
               </h2>
               <span className="text-xs sm:text-sm md:text-base font-extrabold uppercase tracking-wider text-zinc-950/90 mt-2 font-sans">
                 Official Soccer Club & National Team Matchday Jerseys
@@ -165,9 +166,10 @@ export const Hero: React.FC<HeroProps> = ({
             />
 
             {/* Huge Banner Text: Landscape Layout with Widescreen Breathing Room & Refined Kerning */}
-            <div className="absolute inset-y-0 left-6 sm:left-10 md:left-12 lg:left-14 z-10 flex flex-col justify-center max-w-[60%] sm:max-w-[55%] md:max-w-[50%] pointer-events-none select-none">
-              <h2 className="font-display font-black text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-wide leading-[0.92] text-white uppercase drop-shadow-md">
-                HARDWOOD & COURT SHORTS
+            <div className="absolute inset-y-0 left-6 sm:left-10 md:left-12 lg:left-14 z-10 flex flex-col justify-center max-w-[70%] sm:max-w-[65%] md:max-w-[60%] pointer-events-none select-none">
+              <h2 className="font-display font-black text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide leading-[0.92] text-white uppercase drop-shadow-md">
+                <span className="block">OFFICIAL HARDWOOD</span>
+                <span className="block">& COURT SHORTS</span>
               </h2>
               <div className="mt-2">
                 <span className="text-xs sm:text-sm md:text-base font-extrabold uppercase tracking-wider text-emerald-200/90 font-sans">
