@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix Remix Remix Remix Remix Remix Remix REMIX Studio Storefront",
+  "description": "Contemporary luxury fashion and architectural apparel storefront featuring campaign lookbooks, interactive product studio, and seamless checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

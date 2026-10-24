@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Tondu';
+  src: url('/src/assets/fonts/Tondu.woff') format('woff'),
+       url('https://fonts.cdnfonts.com/s/16427/Tondu_Beta.woff') format('woff');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  .font-display {
+    font-family: 'Tondu', 'Outfit', sans-serif;
+    letter-spacing: 0.02em;
+  }
+  .font-tondu {
+    font-family: 'Tondu', 'Outfit', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}

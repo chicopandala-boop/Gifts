@@ -1,0 +1,290 @@
+{
+  "tracksuit_01.png": {
+    "id": "1O2kkxH6gno9sMtlooqr7JLHgXq-5GVUR",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50_o.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50 o.png",
+    "index": 1,
+    "localFile": "tracksuit_01.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_01.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Chelsea",
+      "isBafanaBafana": false,
+      "colors": "Blue, Yellow, White",
+      "name": "Chelsea FC Premium Training Tracksuit",
+      "subtitle": "Official Training Collection · Full Zip Jacket + Tapered Performance Pants",
+      "priceUSD": 550,
+      "description": "Experience professional comfort with this premium poly-fabric tracksuit, featuring secure zip pockets and high-quality embroidered club crests. Designed with an athletic performance fit, it provides optimal mobility for training sessions or casual everyday wear.",
+      "details": [
+        "Premium breathable polyester fabric",
+        "Jacket features secure zip pockets",
+        "High-definition club crest embroidery",
+        "Tapered athletic performance fit"
+      ]
+    }
+  },
+  "tracksuit_02.png": {
+    "id": "1YSVazTbCdtVBWYU5DjhbI9sjB_MnXoMV",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50.41.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50.41.png",
+    "index": 2,
+    "localFile": "tracksuit_02.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_02.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Liverpool FC",
+      "isBafanaBafana": false,
+      "colors": "Maroon, Black, and White",
+      "name": "Liverpool FC Premium Training Tracksuit",
+      "subtitle": "Official Club Style · Full Zip Jacket + Tapered Performance Pants",
+      "priceUSD": 650,
+      "description": "Experience peak athletic performance with this premium poly-fabric tracksuit, featuring precision-engineered zip pockets for secure storage. Show your club pride with high-quality embroidered crests and a tailored fit designed for both training intensity and casual comfort.",
+      "details": [
+        "Premium breathable polyester fabric for moisture-wicking comfort",
+        "Full-zip jacket with side pockets and stand-up collar",
+        "Tapered track pants with iconic three-stripe detailing",
+        "Authentic embroidered Liverpool FC club crests"
+      ]
+    }
+  },
+  "tracksuit_03.png": {
+    "id": "1DaenWQkeAUi83p_jL_zBRSXkLPF2bcnm",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50.png",
+    "index": 3,
+    "localFile": "tracksuit_03.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_03.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Arsenal",
+      "isBafanaBafana": false,
+      "colors": "Navy Blue and Gold",
+      "name": "Arsenal FC Retro Style Tracksuit - Navy/Gold",
+      "subtitle": "Official Inspired Training Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Engineered with premium performance polyester for ultimate comfort, this tracksuit features an athletic fit designed for both training and casual wear. It is detailed with high-quality club crest embroidery and secure zip pockets to ensure you stay sharp while on the move.",
+      "details": [
+        "Premium breathable poly fabric for athletic performance",
+        "Full-zip jacket with gold Arsenal and adidas-style detailing",
+        "Tapered track pants featuring convenient zip pockets",
+        "Detailed club crest embroidery on chest and leg"
+      ]
+    }
+  },
+  "tracksuit_04.png": {
+    "id": "1vHUX-XO09JBPJFwC2BBpsfahHMrGQ4iL",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50&#39;.png",
+    "index": 4,
+    "localFile": "tracksuit_04.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_04.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Manchester City",
+      "isBafanaBafana": false,
+      "colors": "Black and Gold",
+      "name": "Manchester City Black & Gold Edition Tracksuit",
+      "subtitle": "Official Training Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Engineered from premium moisture-wicking poly fabric, this tracksuit features an athletic performance fit designed for maximum mobility. Complete with secure zip pockets and high-quality embroidered club crests, it offers a sophisticated look for both training and casual wear.",
+      "details": [
+        "Premium poly fabric for comfort and durability",
+        "Jacket and pants featuring secure zip pockets",
+        "High-definition embroidered Manchester City club crest",
+        "Athletic tapered fit for a modern silhouette"
+      ]
+    }
+  },
+  "tracksuit_05.png": {
+    "id": "1E6lGhhcHeUzfprvZD9d8qplbI2W7dt96",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50_.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50].png",
+    "index": 5,
+    "localFile": "tracksuit_05.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_05.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Paris Saint-Germain (PSG)",
+      "isBafanaBafana": false,
+      "colors": "Blue, Red, White",
+      "name": "PSG Official Club Tracksuit",
+      "subtitle": "Official Matchday Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Elevate your training sessions with this premium poly-fabric tracksuit featuring precision club crest embroidery and a sleek athletic fit. Designed for comfort and utility, it includes convenient zip pockets to keep your essentials secure while you perform.",
+      "details": [
+        "High-performance breathable polyester fabric",
+        "Full-zip jacket with iconic PSG colorway",
+        "Tapered track pants with secure zip pockets",
+        "Embroidered club crest and branding"
+      ]
+    }
+  },
+  "tracksuit_06.png": {
+    "id": "1NT2gqi34cqx01bPMi0XS1WLPvfrA2Ueb",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50b.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50b.png",
+    "index": 6,
+    "localFile": "tracksuit_06.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_06.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Arsenal",
+      "isBafanaBafana": false,
+      "colors": "Red, White, and Black",
+      "name": "Arsenal Official Training Tracksuit Set",
+      "subtitle": "Official Training Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Engineered with premium moisture-wicking poly fabric, this tracksuit delivers an athletic performance fit for peak training sessions. Featuring signature club crest embroidery and convenient zip pockets, it combines authentic team pride with modern functional style.",
+      "details": [
+        "Premium breathable polyester fabric",
+        "Jacket and pants include secure zip pockets",
+        "High-definition club crest embroidery",
+        "Tapered athletic fit for maximum agility"
+      ]
+    }
+  },
+  "tracksuit_07.png": {
+    "id": "16qtjauuwjOgc6US2vqtT6ndh65KRskj3",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50h.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50h.png",
+    "index": 7,
+    "localFile": "tracksuit_07.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_07.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Manchester City",
+      "isBafanaBafana": false,
+      "colors": "Sky Blue and White",
+      "name": "Manchester City Official Training Tracksuit Set",
+      "subtitle": "Official Training Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Engineered from premium moisture-wicking poly fabric, this set offers a sleek athletic performance fit for training or casual wear. Features convenient zip pockets and precision-embroidered club crests to showcase your City pride.",
+      "details": [
+        "Premium lightweight poly-knit fabric",
+        "Secure zip pockets on jacket and pants",
+        "Embroidered Manchester City crest",
+        "Tapered athletic fit for maximum mobility"
+      ]
+    }
+  },
+  "tracksuit_08.png": {
+    "id": "1JTZu-Mf7LhIH2G6fs4Izqtusssg2PBts",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50q.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50q.png",
+    "index": 8,
+    "localFile": "tracksuit_08.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_08.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Liverpool FC",
+      "isBafanaBafana": false,
+      "colors": "White, Maroon, Black",
+      "name": "Liverpool FC Heritage Edition Tracksuit",
+      "subtitle": "Official Club Tracksuit · Full Zip Jacket + Tapered Pants",
+      "priceUSD": 650,
+      "description": "Experience superior comfort with this premium poly-fabric tracksuit designed for an elite athletic performance fit. Featuring precise club crest embroidery and secure zip pockets, it seamlessly combines legendary Liverpool style with modern sportswear functionality.",
+      "details": [
+        "High-quality moisture-wicking polyester fabric",
+        "Jacket features full-length zip and embroidered club crest",
+        "Tapered track pants with secure side zip pockets",
+        "Authentic Heritage branding with signature tri-stripe detailing"
+      ]
+    }
+  },
+  "tracksuit_09.png": {
+    "id": "1uqULCh9zWl5iR4UUFUZmv5u8g_PTxDWl",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50s.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50s.png",
+    "index": 9,
+    "localFile": "tracksuit_09.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_09.png",
+    "analysis": {
+      "itemType": "set",
+      "team": "FC Barcelona",
+      "isBafanaBafana": false,
+      "colors": "Navy Blue, Red, Yellow",
+      "name": "FC Barcelona Elite Training Tracksuit",
+      "subtitle": "Official Training Collection · Full Zip Jacket + Tapered Joggers",
+      "priceUSD": 650,
+      "description": "Experience professional-grade comfort with this premium poly-fabric tracksuit designed for maximum athletic performance. Featuring secure zip pockets and high-quality club crest embroidery, it delivers a sleek fit perfect for both training sessions and casual wear.",
+      "details": [
+        "Premium breathable polyester fabric",
+        "Jacket features full-zip closure with convenient zip pockets",
+        "Detailed club crest embroidery on chest and leg",
+        "Tapered athletic fit for unrestricted movement"
+      ]
+    }
+  },
+  "tracksuit_10.png": {
+    "id": "19a-VrkPLcYVepa-V-IqTgqAld60y88hq",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50u.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50u.png",
+    "index": 10,
+    "localFile": "tracksuit_10.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_10.png",
+    "analysis": {
+      "itemType": "set",
+      "team": "Real Madrid",
+      "isBafanaBafana": false,
+      "colors": "White, Black, and Magenta",
+      "name": "Real Madrid Official Training Tracksuit Set",
+      "subtitle": "Full Zip Jacket + Tapered Training Pants",
+      "priceUSD": 650,
+      "description": "Experience professional-grade comfort with this premium polyester tracksuit, featuring an athletic performance fit and iconic club crest embroidery. Equipped with secure zip pockets for your essentials, this set is designed to keep you performing at your peak on and off the pitch.",
+      "details": [
+        "Premium breathable polyester fabric",
+        "Embroidered Real Madrid club crest",
+        "Secure zip pockets on jacket and pants",
+        "Athletic tapered fit for range of motion"
+      ]
+    }
+  },
+  "tracksuit_11.png": {
+    "id": "11AjJXYa4uyBMGyvvEJDZW4v5hsJYeY_Q",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50w.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50w.png",
+    "index": 11,
+    "localFile": "tracksuit_11.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_11.png",
+    "analysis": {
+      "itemType": "set",
+      "team": "Manchester United",
+      "isBafanaBafana": false,
+      "colors": "Blue, Red, and Black",
+      "name": "Manchester United Adidas Retro-Style Tracksuit Set",
+      "subtitle": "Official Club Tracksuit · Full Zip Jacket + Tapered Training Pants",
+      "priceUSD": 650,
+      "description": "Experience superior comfort with this premium poly-fabric tracksuit, engineered for an athletic performance fit on and off the pitch. Features secure zip pockets for your essentials and detailed club crest embroidery to showcase your Manchester United pride.",
+      "details": [
+        "Premium breathable poly-fabric construction",
+        "Jacket features full-length zip and secure pockets",
+        "Embroidered Manchester United club crest",
+        "Tapered training pants with signature 3-stripe detailing"
+      ]
+    }
+  },
+  "tracksuit_12.png": {
+    "id": "1po5zINo7e0OnPnfsog3YAEkCfydOw-nC",
+    "name": "WhatsApp_Image_2026-10-22_at_22.50x.png",
+    "originalName": "WhatsApp Image 2026-10-22 at 22.50x.png",
+    "index": 12,
+    "localFile": "tracksuit_12.png",
+    "localPath": "src/assets/images/tracksuits/tracksuit_12.png",
+    "analysis": {
+      "itemType": "tracksuit",
+      "team": "Orlando Pirates",
+      "isBafanaBafana": false,
+      "colors": "White, Black, Gold",
+      "name": "Orlando Pirates Official Training Tracksuit",
+      "subtitle": "Full Zip Jacket + Tapered Training Pants",
+      "priceUSD": 650,
+      "description": "Engineered with premium moisture-wicking poly fabric, this set provides an elite athletic fit for optimal performance on and off the pitch. Featuring secure zip pockets and high-quality embroidered club crests, it offers both functional utility and team pride.",
+      "details": [
+        "Premium breathable performance polyester blend",
+        "Jacket features secure full-zip closure and side pockets",
+        "Embroidered Orlando Pirates club crest and branding",
+        "Tapered fit pants with signature gold 3-stripe detailing"
+      ]
+    }
+  }
+}
