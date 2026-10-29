@@ -506,7 +506,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {/* ========================================================================= */}
       {(activeCatalogTab === 'all' || activeCatalogTab === 'kids') && (
         <section id="kids-football" className="py-14 border-b border-emerald-800 scroll-mt-28 bg-gradient-to-b from-emerald-950 via-emerald-900 to-emerald-950 text-white">
-          <div id="kids-football-wear" className="max-w-7xl mx-auto px-6">
+          <div id="kids-football-wear" className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-emerald-800">
               <div>
@@ -548,7 +548,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Kids Product Grid */}
             {filteredKidsProducts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 {filteredKidsProducts.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -581,7 +581,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {/* ========================================================================= */}
       {(activeCatalogTab === 'all' || activeCatalogTab === 'soccer' || activeCatalogTab === 'football') && (
         <section id="soccer-jerseys" className="py-14 border-b border-emerald-800 scroll-mt-28 bg-gradient-to-b from-emerald-950 via-emerald-900 to-emerald-950 text-white">
-          <div id="football-catalogue" className="max-w-7xl mx-auto px-6">
+          <div id="football-catalogue" className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-emerald-800">
               <div>
@@ -626,7 +626,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Soccer Product Grid */}
             {filteredSoccerProducts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 {filteredSoccerProducts.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -659,7 +659,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {/* ========================================================================= */}
       {(activeCatalogTab === 'all' || activeCatalogTab === 'tracksuits') && (
         <section id="club-tracksuits" className="py-14 border-b border-emerald-900 scroll-mt-28 bg-gradient-to-b from-emerald-950 via-zinc-900 to-emerald-950 text-white">
-          <div className="max-w-7xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-emerald-800">
               <div>
@@ -704,7 +704,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Tracksuits Grid: All cards render tracksuits bigger with edge-to-edge frame fill */}
             {filteredTracksuitProducts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 {filteredTracksuitProducts.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -737,7 +737,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {/* ========================================================================= */}
       {(activeCatalogTab === 'all' || activeCatalogTab === 'socks') && (
         <section id="matchday-socks" className="py-14 border-b border-blue-900 scroll-mt-28 bg-gradient-to-b from-slate-950 via-blue-950 to-slate-950 text-white">
-          <div id="performance-socks" className="max-w-7xl mx-auto px-6">
+          <div id="performance-socks" className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-blue-800">
               <div>
@@ -782,7 +782,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Socks Product Grid */}
             {filteredSocksProducts.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5">
                 {filteredSocksProducts.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -816,7 +816,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {(activeCatalogTab === 'all' || activeCatalogTab === 'basketball') &&
         (selectedBasketballType === 'all' || selectedBasketballType === 'jersey') && (
         <section id="basketball-jerseys" className="py-14 border-b border-orange-700 scroll-mt-28 bg-gradient-to-b from-[#ea580c] via-[#d97706] to-[#c2410c] text-white">
-          <div id="basketball-catalogue" className="max-w-7xl mx-auto px-6">
+          <div id="basketball-catalogue" className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-orange-500">
               <div>
@@ -906,7 +906,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Basketball Jerseys Product Grid */}
             {filteredJerseyProducts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 {filteredJerseyProducts.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -940,7 +940,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
       {(activeCatalogTab === 'all' || activeCatalogTab === 'basketball' || activeCatalogTab === 'shorts') &&
         (selectedBasketballType === 'all' || selectedBasketballType === 'shorts') && (
         <section id="court-shorts" className="py-14 border-b border-orange-700 scroll-mt-28 bg-gradient-to-b from-[#c2410c] via-[#ea580c] to-[#b45309] text-white">
-          <div className="max-w-7xl mx-auto px-6">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             {/* Dedicated Shorts Header */}
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 pb-4 border-b border-orange-500">
               <div>
@@ -985,7 +985,7 @@ export const ProductCatalog: React.FC<ProductCatalogProps> = ({
 
             {/* Court Shorts Product Grid */}
             {filteredShortsProducts.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
                 {filteredShortsProducts.map((product) => (
                   <ProductCard
                     key={product.id}

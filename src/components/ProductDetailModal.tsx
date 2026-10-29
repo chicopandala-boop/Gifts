@@ -129,10 +129,10 @@ const ProductDetailContent: React.FC<ProductDetailContentProps> = ({
         </button>
 
         {/* Left Column: Gallery & Viewport */}
-        <div className="md:w-1/2 p-6 flex flex-col bg-zinc-50 border-b md:border-b-0 md:border-r border-zinc-100">
+        <div className="md:w-1/2 p-4 sm:p-6 flex flex-col bg-zinc-50 border-b md:border-b-0 md:border-r border-zinc-100">
           {/* Main Visual Frame */}
-          <div className={`relative aspect-[4/5] rounded-xl overflow-hidden bg-white border-2 border-zinc-200 hover:border-emerald-700 shadow-xs flex items-center justify-center transition-colors ${
-            isTracksuit ? 'p-0' : 'p-3'
+          <div className={`relative aspect-square sm:aspect-[4/5] max-h-[280px] sm:max-h-none rounded-xl overflow-hidden bg-white border-2 border-zinc-200 hover:border-emerald-700 shadow-xs flex items-center justify-center transition-colors ${
+            isTracksuit ? 'p-0' : 'p-2.5 sm:p-3'
           }`}>
             <img
               src={selectedImage}
@@ -196,7 +196,7 @@ const ProductDetailContent: React.FC<ProductDetailContentProps> = ({
                 <button
                   key={idx}
                   onClick={() => setSelectedImage(img)}
-                  className={`relative w-20 h-16 rounded-lg overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
+                  className={`relative w-14 h-12 sm:w-16 sm:h-14 md:w-20 md:h-16 rounded-lg overflow-hidden border-2 transition-all shrink-0 cursor-pointer ${
                     selectedImage === img
                       ? 'border-emerald-600 shadow-sm ring-2 ring-emerald-500/50'
                       : 'border-zinc-200 opacity-70 hover:opacity-100'
