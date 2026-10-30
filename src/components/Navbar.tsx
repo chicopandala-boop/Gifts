@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { ShoppingBag, Truck, Menu, X, FolderGit2, Sparkles } from 'lucide-react';
 import { User } from 'firebase/auth';
 
+import logoImg from '../assets/images/gifts_boutique_logo.png';
+
 interface NavbarProps {
   cartCount: number;
   onOpenCart: () => void;
@@ -36,13 +38,18 @@ export const Navbar: React.FC<NavbarProps> = ({
       </div>
 
       {/* Top Bar Navigation */}
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between gap-8">
-        {/* Zone 1: Single text element wordmark */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-18 sm:h-20 flex items-center justify-between gap-4 sm:gap-8">
+        {/* Zone 1: Official Brand Logo */}
         <button
           onClick={() => handleNavClick('all-catalogues')}
-          className="font-display font-black text-xl sm:text-2xl tracking-wider text-emerald-800 uppercase whitespace-nowrap shrink-0 hover:text-emerald-950 transition-colors text-left cursor-pointer"
+          className="flex items-center shrink-0 hover:opacity-90 active:scale-[0.98] transition-all text-left cursor-pointer py-1"
+          aria-label="Gifts Boutique - Go to all catalogues"
         >
-          Gifts Boutique
+          <img
+            src={logoImg}
+            alt="Gifts Boutique"
+            className="h-12 sm:h-14 md:h-16 w-auto max-w-[210px] sm:max-w-[270px] md:max-w-[310px] object-contain drop-shadow-xs"
+          />
         </button>
 
         {/* Zone 2: Navigation links */}
