@@ -104,7 +104,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div
             onClick={onExploreFootball}
             title="Explore Soccer Jerseys"
-            className="relative h-60 sm:h-72 md:h-80 lg:h-[300px] xl:h-[320px] w-full bg-[#ea580c] overflow-hidden group cursor-pointer transition-all duration-300"
+            className="relative h-64 sm:h-72 md:h-80 lg:h-[300px] xl:h-[320px] w-full bg-[#ea580c] overflow-hidden group cursor-pointer transition-all duration-300"
           >
             {/* Solid Rich Orange / Dark-Yellow Background - Football Jerseys */}
             <div className="absolute inset-0 bg-gradient-to-r from-[#ea580c] via-[#d97706] to-[#b45309]" />
@@ -121,7 +121,7 @@ export const Hero: React.FC<HeroProps> = ({
             />
 
             {/* Huge Banner Text: Landscape Layout with Widescreen Breathing Room & Refined Kerning */}
-            <div className="absolute inset-y-0 left-3.5 sm:left-10 md:left-12 lg:left-14 z-20 flex flex-col justify-center max-w-[53%] sm:max-w-[62%] md:max-w-[60%] pointer-events-none select-none">
+            <div className="absolute inset-y-0 left-3 sm:left-10 md:left-12 lg:left-14 z-20 flex flex-col justify-center max-w-[50%] sm:max-w-[62%] md:max-w-[60%] pointer-events-none select-none">
               <h2 className="font-display font-black text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide leading-[0.92] text-zinc-950 uppercase drop-shadow-xs">
                 <span className="block">PREMIER LEAGUE</span>
                 <span className="block">& CHAMPIONS</span>
@@ -132,11 +132,11 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Lyle Foster on the right in widescreen landscape with full headroom, enlarged for strong presence */}
-            <div className="absolute inset-y-0 right-0 sm:right-6 md:right-10 lg:right-16 flex items-end justify-end pointer-events-none z-10 pt-1 pb-0">
+            <div className="absolute inset-y-0 -right-2 sm:right-6 md:right-10 lg:right-16 flex items-end justify-end pointer-events-none z-10 pt-0 pb-0">
               <img
                 src={BANNER_SOCCER_PLAYER_PNG}
                 alt="Lyle Foster South Africa & Premier League Footballer"
-                className="h-auto max-h-[92%] sm:max-h-[96%] md:max-h-[98%] lg:max-h-full max-w-[46%] sm:max-w-[44%] md:max-w-none w-auto object-contain object-bottom drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] filter transition-transform duration-500 origin-bottom group-hover:scale-[1.03]"
+                className="h-auto max-h-[98%] sm:max-h-[96%] md:max-h-[98%] lg:max-h-full max-w-[52%] sm:max-w-[44%] md:max-w-none w-auto object-contain object-bottom drop-shadow-[0_15px_30px_rgba(0,0,0,0.6)] filter transition-transform duration-500 origin-bottom-right scale-115 sm:scale-100 group-hover:scale-[1.20] sm:group-hover:scale-[1.03]"
                 loading="eager"
               />
             </div>
@@ -149,7 +149,7 @@ export const Hero: React.FC<HeroProps> = ({
           <div
             onClick={onExploreBasketball}
             title="Explore Basketball Jerseys & Shorts"
-            className="relative h-60 sm:h-72 md:h-80 lg:h-[300px] xl:h-[320px] w-full bg-emerald-950 overflow-hidden group cursor-pointer transition-all duration-300"
+            className="relative h-64 sm:h-72 md:h-80 lg:h-[300px] xl:h-[320px] w-full bg-emerald-950 overflow-hidden group cursor-pointer transition-all duration-300"
           >
             {/* Same Rich Green Background */}
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-950 via-emerald-800 to-emerald-900" />
@@ -166,7 +166,7 @@ export const Hero: React.FC<HeroProps> = ({
             />
 
             {/* Huge Banner Text: Landscape Layout with Widescreen Breathing Room & Refined Kerning */}
-            <div className="absolute inset-y-0 left-3.5 sm:left-10 md:left-12 lg:left-14 z-20 flex flex-col justify-center max-w-[53%] sm:max-w-[62%] md:max-w-[60%] pointer-events-none select-none">
+            <div className="absolute inset-y-0 left-3 sm:left-10 md:left-12 lg:left-14 z-20 flex flex-col justify-center max-w-[50%] sm:max-w-[62%] md:max-w-[60%] pointer-events-none select-none">
               <h2 className="font-display font-black text-xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide leading-[0.92] text-white uppercase drop-shadow-md">
                 <span className="block">OFFICIAL HARDWOOD</span>
                 <span className="block">& COURT SHORTS</span>
@@ -179,11 +179,11 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Basketball Athlete Jamal Crawford: head fully uncut with safe headroom in widescreen landscape, enlarged */}
-            <div className="absolute inset-y-0 -right-1 sm:right-2 md:right-6 lg:right-12 flex items-end justify-end pointer-events-none z-10 pt-1 pb-0">
+            <div className="absolute inset-y-0 -right-2 sm:right-2 md:right-6 lg:right-12 flex items-end justify-end pointer-events-none z-10 pt-0 pb-0">
               <img
                 src={BANNER_BASKETBALL_PLAYER_PNG}
                 alt="Basketball Athlete Jamal Crawford"
-                className="h-auto max-h-[90%] sm:max-h-[95%] md:max-h-[98%] lg:max-h-full max-w-[46%] sm:max-w-[44%] md:max-w-none w-auto object-contain object-bottom drop-shadow-[0_20px_30px_rgba(0,0,0,0.6)] filter transition-transform duration-500 origin-bottom group-hover:scale-[1.03]"
+                className="h-auto max-h-[94%] sm:max-h-[95%] md:max-h-[98%] lg:max-h-full max-w-[54%] sm:max-w-[44%] md:max-w-none w-auto object-contain object-bottom drop-shadow-[0_20px_30px_rgba(0,0,0,0.6)] filter transition-transform duration-500 origin-bottom-right scale-135 sm:scale-100 group-hover:scale-[1.40] sm:group-hover:scale-[1.03]"
                 loading="eager"
               />
             </div>
